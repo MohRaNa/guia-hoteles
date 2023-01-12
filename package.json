@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Guia fullstack",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohRaNa/guia-hoteles.git"
+  },
+  "author": "Mohamed Ramos Najera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohRaNa/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/MohRaNa/guia-hoteles#readme"
+}
