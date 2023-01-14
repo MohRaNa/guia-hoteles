@@ -1,70 +1,56 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="./css/styles.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hoteles</title>
-    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link href="./styles.css" rel="stylesheet">
+
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-center">
         <h1 class="text-bg-primary">Hoteles</h1>
     </div>
   <div class="container">
     <div class="d-flex flex-wrap">
-      
-        <div class="col-sm-4">
-          <div class="card">
+        <div class="card card-hotel">
           <p>
             <h3 class="card-title"> Hotel 5 Estrellas</h3>
-            <p1> Encontraras un catalogo de servicios y comida exclusiva
-              lorem ipsum
-              a
+            <p1> Encontraras un catalogo de servicios y comida exclusia
             </p1>
           </p>
-          </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card">
+        <div class="card card-hotel">
           <p>
             <h3 class="card-title" >Hotel de 4 Estrellas</h3>
             <p1> Encontraras las mejores habitaciones en donde podras recostarte y disfrutar de tus vacaciones</p>
          </p>
-          </div>
-            </div>
-        <div class="col-sm-4">
-          <div class="card">
+        </div>
+        <div class="card card-hotel">
           <p>
           <h3 class="card-title"> Hotel de 3 Estrellas</h3>
           <p> Encontrras todo tipo de comidas gratuitas y habitaciones recomfortables</p>
           </p>
-          </div>
         </div>
     </div>
   </div>     
   <div class="container">
     <div class="row">
-      <div class="col-md">
-        <div class="card">
-          <h3 class="card-title"> La quinta </h4>
+      <div class="card card-hotel d-flex flex-column justify-content-around">
+          <h3 class="card-title"> La quinta </h3>
           <p> Hotel de 3 estrellas</p>
-          <button type="button" class="btn btn-secondary">Select</button>
-        </div>
+          <button type="button" class="btn btn-secondary btn-reserve">Select</button>
       </div>
-      <div class="col-md">
-        <div class="card">
-          <h3 class="card-title"> Holiday Inn </h4>
+      <div class="card card-hotel d-flex flex-column justify-content-around">
+          <h3 class="card-title"> Holiday Inn </h3>
           <p> Hotel de 4 estrellas</p>
-          <button type="button" class="btn btn-secondary">Select</button>
-        </div>
+          <button type="button" class="btn btn-secondary btn-reserve">Select</button>
       </div>
-      <div class="col-md">
-        <div class="card">
-          <h3 class="card-title"> Fiesta Inn </h4>
+      <div class="card card-hotel d-flex flex-column justify-content-around">
+          <h3 class="card-title"> Fiesta Inn </h3>
           <p> Hotel de 5 estrellas</p>
-          <button type="button" class="btn btn-secondary">Select</button>
-        </div>
+          <button type="button" class="btn btn-secondary btn-reserve">Select</button>
       </div>
     </div>
   </div>    
