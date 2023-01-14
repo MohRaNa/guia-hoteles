@@ -1,4 +1,8 @@
-
+.hotel-top{
+    background-color: yellow;
+    color:black;
+    margin-top: 10px;
+}
 footer {
     padding: 10px 10px 0 10px;
     background-color: yellow;
