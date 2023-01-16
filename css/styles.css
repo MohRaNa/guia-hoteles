@@ -1,25 +1,54 @@
-.hotel-top{
-    background-color: yellow;
-    color:black;
-    margin-top: 50px;
+.img-main-page {
+  width: 100%;
+  height: auto;
 }
-footer {
-    padding: 10px 10px 0 10px;
-    background-color: yellow;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-.card-hotel{
-    flex: 1 150px;
-    padding: 2px 2px 2px 2px;
-    height: 100%;   
-    margin: 10px 10px 10px 10px;
+.card-container {
+  padding: 10px 16px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.btn-reserve{
-    width: 100%;
-    margin-top: 10px;
+.img-card {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
 }
-.footer-address-icon{
-    padding-right: 10px;
+.hotel-top {
+  background-color: #808080;
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: #808080;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.card-hotel {
+  flex: 1 150px;
+  padding: 20px 20px 20px 20px;
+  height: 100%;
+  margin: 20px 20px 20px 20px;
+}
+.card-title {
+  text-align: center;
+}
+
+.btn-reserve {
+  width: 100%;
+  margin-top: 10px;
+}
+.footer-address-icon {
+  padding-right: 10px;
+}
+.footer-social-icon {
+  padding: 10px 20px 0px 200px;
+}
+.footer-information {
+  text-align: center;
+}
+.center {
+  text-align: center;
 }
