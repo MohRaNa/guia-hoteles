@@ -52,3 +52,15 @@ footer {
 .center {
   text-align: center;
 }
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.margin-text-formulario {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
