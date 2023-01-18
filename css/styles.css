@@ -22,9 +22,6 @@
 }
 footer {
   padding: 10px 10px 0 10px;
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
   background-color: #808080;
   margin-bottom: 0px;
   margin-top: 10px;
@@ -78,4 +75,8 @@ footer {
 .nav-pills {
   margin-left: 45%;
   padding: 20px 0 10px 0;
+}
+.card-prices {
+  width: 20%;
+  margin-left: 40%;
 }
