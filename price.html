@@ -108,18 +108,49 @@
         </table>
       </div>
       </div>
-      <div class="card d-flex card-prices justify-content-center tab-pane fade" id="tarjetas" role="tabpanel" aria-lalledby="tarjetas-tab">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item card-title p-3 mb-2 bg-primary text-white">Tarjetas</li>
-          <li class="list-group-item">Tarjeta basica</li>
-          <li class="list-group-item">Tarjeta VIP</li>
-          <li class="list-group-item">Tarjeta Black</li>
-        </ul>
+      <div class="tab-pane fade table-striped" id="tarjetas" role="tabpanel" aria-lalledby="tarjetas-tab">
+        <div class="accordion" id="accordionTarjetas">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">Tarjeta Basica</button>
+              </h5>
+            </div>
+            <div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordionTarjetas">
+              <div class="card-body">
+                Puede pagar a 2 cuotas
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVIP" aria-expanded="true" aria-controls="collapseVIP">Tarjeta VIP</button>
+              </h5>
+            </div>
+            <div id="collapseVIP" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionTarjetas">
+              <div class="card-body">
+                Puedes pagar hasta 6 meses sin intereses
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlack" aria-expanded="true" aria-controls="collapseBlack">Tarjeta Black</button>
+              </h5>
+            </div>
+            <div id="collapseBlack" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionTarjetas">
+              <div class="card-body">
+                Puedes pagar hasta 12 meses sin intereses
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="tab-pane fade comentarios" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
         <p>Comentarios</p>
       </div>
-
   <footer>
     <div class="row">
       <div class="col-sm-4 d-flex flex-column">
