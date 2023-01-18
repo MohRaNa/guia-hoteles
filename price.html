@@ -29,79 +29,97 @@
     <div class="hotel-top">
       <h1>Hoteles</h1>
   </div>
+    <ul class="nav nav-pills" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="tabla-contenido-tab" data-bs-toggle="pill" href="#tabla-contenido" role="tab" aria-controls="tabla-contenido" aria-selected="true">Compara</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tarjetas-tab" data-bs-toggle="pill" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="comentarios-tab" data-bs-toggle="pill" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentarios</a>
+      </li>
+    </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="tabla-contenido" role="tabpanel" aria-labelledby="tabla-contenido-tab">
+        <table class="table table-striped" >
+          <thead class="table-dark">
+            <th>Calidad</th>
+            <th>Pinamar</th>
+            <th>Mar del Plata</th>
+            <th>San Clemente</th>
+            <th>Holiday</th>
+          </thead>
+          <tbody class="table-light">
+            <td >
+            <i class="bi bi-star-fill"></i>
+            </td>
+            <td>$100</td>
+            <td>$200</td>
+            <td>$300</td>
+            <td>$400</td>
+          </tbody>
+          <tbody>
+            <td>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </td>
+            <td>$100</td>
+            <td>$200</td>
+            <td>$300</td>
+            <td>$400</td>
+          </tbody>
+          <tbody class="table-light">
+            <td>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </td>
+              <td>$100</td>
+              <td>$200</td>
+              <td>$300</td>
+              <td>$400</td>
+          </tbody>
+          <tbody>
+            <td>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </td>
+              <td>$100</td>
+              <td>$200</td>
+              <td>$300</td>
+              <td>$400</td>
+          </tbody>
+          <tbody class="table-light">
+            <td>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </td>
+            <td>$100</td>
+            <td>$200</td>
+            <td>$300</td>
+            <td>$400</td>
+          </tbody>
+        </table>
+      </div>
+      </div>
+      <div class="card d-flex card-prices justify-content-center tab-pane fade" id="tarjetas" role="tabpanel" aria-lalledby="tarjetas-tab">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item card-title p-3 mb-2 bg-primary text-white">Tarjetas</li>
+          <li class="list-group-item">Tarjeta basica</li>
+          <li class="list-group-item">Tarjeta VIP</li>
+          <li class="list-group-item">Tarjeta Black</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade comentarios" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+        <p>Comentarios</p>
+      </div>
 
-      <table class="table table-striped">
-        <thead class="table-dark">
-          <th>Calidad</th>
-          <th>Pinamar</th>
-          <th>Mar del Plata</th>
-          <th>San Clemente</th>
-          <th>Holiday</th>
-        </thead>
-        <tbody class="table-light">
-          <td >
-          <i class="bi bi-star-fill"></i>
-          </td>
-          <td>$100</td>
-          <td>$200</td>
-          <td>$300</td>
-          <td>$400</td>
-        </tbody>
-        <tbody>
-          <td>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </td>
-          <td>$100</td>
-          <td>$200</td>
-          <td>$300</td>
-          <td>$400</td>
-        </tbody>
-        <tbody class="table-light">
-          <td>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </td>
-            <td>$100</td>
-            <td>$200</td>
-            <td>$300</td>
-            <td>$400</td>
-        </tbody>
-        <tbody>
-          <td>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </td>
-            <td>$100</td>
-            <td>$200</td>
-            <td>$300</td>
-            <td>$400</td>
-        </tbody>
-        <tbody class="table-light">
-          <td>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </td>
-          <td>$100</td>
-          <td>$200</td>
-          <td>$300</td>
-          <td>$400</td>
-        </tbody>
-    </table>
-    <div class="card d-flex card-prices justify-content-center">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item card-title p-3 mb-2 bg-primary text-white">Tarjetas</li>
-        <li class="list-group-item">Tarjeta basica</li>
-        <li class="list-group-item">Tarjeta VIP</li>
-        <li class="list-group-item">Tarjeta Black</li>
-      </ul>
-    </div>
   <footer>
     <div class="row">
       <div class="col-sm-4 d-flex flex-column">
@@ -123,5 +141,9 @@
     </div>
     </div>
   </footer> 
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script></script>
+	<script src="node_modules/popper.js/dist/popper.min.js"></script></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
