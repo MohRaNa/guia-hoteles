@@ -22,9 +22,13 @@
 }
 footer {
   padding: 10px 10px 0 10px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
   background-color: #808080;
   margin-bottom: 0px;
   margin-top: 10px;
+  width: 100%;
 }
 .card-hotel {
   flex: 1 150px;
@@ -65,7 +69,13 @@ footer {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-table {
+
+.table-striped {
   width: 80%;
-  height: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.nav-pills {
+  margin-left: 45%;
+  padding: 20px 0 10px 0;
 }
