@@ -131,7 +131,8 @@
           <h5 class="card-title"> Hotel Madrid </h5>
           <h6 class="center card-subtitle text-muted">Mexico</h6>
           <p class="card-text center"> Hotel ubicado en pleno centro.</p>
-          <button class="btn btn-primary btn-reserva" data-bs-toggle="modal" data-bs-target="#contacto" data-bs-toggler="popover" data-content="Consulta las promociones vigentes"> Reservar </button>
+          <button class="btn btn-primary btn-reserva" data-bs-toggle="modal" data-bs-target="#contacto"
+          id="contactoBtn"> Reservar </button>
       </div>
     </div>
   </div>
@@ -196,6 +197,25 @@
         interval: 2000
       })
     });
+    $('#contactoBtn').on('show.bs.modal', function (e){
+        console.log('el modal se esta mostrando');
+        $('#contactoBtn').removeClass('btn-primary');
+        $('#contactoBtn').addClass('btn-outline-succes');
+        $('#contactoBtn').prop('disabled',true);
+    });
+    $('#contactoBtn').on('show.bs.modal', function (e){
+        console.log('el modal se esta mostrando');
+    });
+    $('#contactoBtn').on('shown.bs.modal', function (e){
+        console.log('el modal se esta mostro');
+    });
+    $('#contactoBtn').on('hide.bs.modal', function (e){
+        console.log('el modal se oculta');
+    });
+    $('#contactoBtn').on('hidden.bs.modal', function (e){
+        console.log('el modal se oculto');
+    });
+
   </script>
   </body>
 </html>
