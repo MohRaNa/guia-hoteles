@@ -105,16 +105,17 @@
   <div class="container">
     <div class="row">
       <div class="card card-hotel d-flex flex-column justify-content-around">
-          <img src="./Hotel-3.jpg" class="img-fluid img-card card-img-top card-img-bottom" alt="Responsive image">
-          <h3 class="card-title"> La quinta </h3>
-          <p class="center"> Hotel de 3 estrellas</p>
-          <button type="button" class="btn btn-secondary btn-reserve" data-bs-toggle="modal" data-target="#contacto">Select</button>
+          <h5 class="card-title"> Hotel Madrid </h5>
+          <h6 class="center card-subtitle text-muted">Mexico</h6>
+          <p class="card-text center"> Hotel ubicado en pleno centro.</p>
+          <button class="btn btn-primary btn-reserva" data-bs-toggle="modal" data-bs-target="#contacto"> Reservar </button>
       </div>
     </div>
-  </div>  
+  </div>
   <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledy="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-header">
+      <div class="modal-content">
+        <div class="modal-header"
         <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -123,15 +124,15 @@
       <div class="modal-body">
         <form>
           <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Tu email:</label>
+            <label for="recipient-name" class="col-form-label">Tu email: </label>
             <input type="text" class="form-control" id="recipent-name">
           </div>
           <div class="form-group">
-            <label for="message-text" class="col-form-label">Mesnaje</label>
-            <textarea type="form-control" class="message-text"></textarea>
+            <label for="message-text" class="col-form-label">Mensaje: </label>
+            <textarea class="form-control" class="message-text"></textarea>
           </div>
         </form>
-      </div>
+        </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success">Enviar</button>
       </div>
